@@ -57,7 +57,7 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
    - Applied the TEXT function on Transaction Date to extract Transaction Day and Transaction Month, enabling time-based analysis and trend insights.
 
 9. **Final Checks**
-   Performed a final review to ensure data completeness and accuracy.
+    Performed a final review to ensure data completeness and accuracy.
     - Rechecked for any remaining invalid entries and blank cells.
     - Verified that all calculations, such as Total Spent, were accurate.
     - Applied a multi-level sort by Item and then by Transaction Date to organize the dataset logically, ensuring consistency and easier trend analysis.
