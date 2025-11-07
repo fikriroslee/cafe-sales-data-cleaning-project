@@ -49,10 +49,10 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
    - Verified that date fields were properly recognized as Date values, enabling accurate filtering and time-based analysis.
 
 7. **Outlier & Invalid Entry Checks**
-   Reviewed the dataset for outliers or illogical values — for example, items with incorrect pricing or unusually high totals. Such records were inspected and corrected based on reference data or consistent price patterns.
+    Reviewed the dataset for outliers or illogical values — for example, items with incorrect pricing or unusually high totals. Such records were inspected and corrected based on reference data or consistent price patterns.
 
 8. **Feature Engineering**
-   Derived new variables from existing columns to enhance the dataset for analysis.
+    Derived new variables from existing columns to enhance the dataset for analysis.
    - Used VLOOKUP to categorize each item as either Food or Beverage based on a reference list.
    - Applied the TEXT function on Transaction Date to extract Transaction Day and Transaction Month, enabling time-based analysis and trend insights.
 
