@@ -3,6 +3,8 @@
 ## 📋 Project Overview
 This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 rows**) using **Microsoft Excel**. The goal was to improve data quality by correcting inconsistencies, handling missing values, validating prices, and creating new features to support further analysis.
 
+**Dataset Source:** https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training?select=dirty_cafe_sales.csv
+
 ---
 
 ## 🎯 Objectives
