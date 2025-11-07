@@ -36,31 +36,31 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
    - If **Item** was known but **Price Per Unit** was missing, the price was corrected based on item metadata (e.g., *Cake* → **$3.00**)
    - If **Quantity** and **Price Per Unit** were valid but **Total Spent** was missing, it was recalculated as `Quantity × Price Per Unit`
 
-4. **Data Deletion**
+4. **Data Deletion**  
    Removed rows that contained too many missing or invalid values, especially when the data could not be reliably inferred from other columns. This ensured the dataset remained accurate and trustworthy for analysis.
 
-5. **Data Entry Restrictions**
+5. **Data Entry Restrictions**  
    Used Excel's Data Validation feature to restrict acceptable input values and prevent future errors.
 
-6. **Data Type Correction**
+6. **Data Type Correction**  
    Ensured all columns had the correct data type and consistent formatting:
    - Converted text-based numbers into numeric values using the VALUE function.
    - Formatted pricing fields to two decimal places (e.g., $3.00) for clarity and consistency.
    - Verified that date fields were properly recognized as Date values, enabling accurate filtering and time-based analysis.
 
-7. **Outlier & Invalid Entry Checks**
+7. **Outlier & Invalid Entry Checks**  
    Reviewed the dataset for outliers or illogical values — for example, items with incorrect pricing or unusually high totals. Such records were inspected and corrected based on reference data or consistent price patterns.
 
-8. **Feature Engineering**
+8. **Feature Engineering**  
    Derived new variables from existing columns to enhance the dataset for analysis.
    - Used VLOOKUP to categorize each item as either Food or Beverage based on a reference list.
    - Applied the TEXT function on Transaction Date to extract Transaction Day and Transaction Month, enabling time-based analysis and trend insights.
 
-9. **Final Checks**
-    Performed a final review to ensure data completeness and accuracy.
-    - Rechecked for any remaining invalid entries and blank cells.
-    - Verified that all calculations, such as Total Spent, were accurate.
-    - Applied a multi-level sort by Item and then by Transaction Date to organize the dataset logically, ensuring consistency and easier trend analysis.
+9. **Final Checks**  
+   Performed a final review to ensure data completeness and accuracy.
+   - Rechecked for any remaining invalid entries and blank cells.
+   - Verified that all calculations, such as Total Spent, were accurate.
+   - Applied a multi-level sort by Item and then by Transaction Date to organize the dataset logically, ensuring consistency and easier trend analysis.
 
 ---
 
