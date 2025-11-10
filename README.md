@@ -18,7 +18,7 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 
 ## 🛠️ Tools & Excel Functions Used
 - **Microsoft Excel**
-- Functions: `TRIM`, `CLEAN`, `LEN`, `ISBLANK`, `ISNUMBER`, `COUNTIF`, `IF`, `OR`, `NOT`, `SUMIF`, `VALUE`, `TEXT`, `VLOOKUP`
+- Functions: `TRIM`, `CLEAN`, `LEN`, `ISBLANK`, `ISNUMBER`, `IF`, `COUNTIF`, `COUNTIFS`, `SUMIF`, `OR`, `NOT`, `VALUE`, `TEXT`, `VLOOKUP`
 - Features: Filter, Conditional Formatting, Data Validation, Pivot Tables
 
 ---
@@ -106,4 +106,4 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 ---
 
 ## 🏷️ Keywords
-`Excel` · `Data Preparation` · `Data Cleaning` · `Data Validation` · `Feature Engineering` · `Pivot Tables`
+`Excel` · `Data Preparation` · `Data Cleaning` · `Data Validation` · `Feature Engineering` · `Pivot Tables` · `Data Analysis`
