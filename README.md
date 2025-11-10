@@ -19,7 +19,7 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 ## 🛠️ Tools & Excel Functions Used
 - **Microsoft Excel**
 - Functions: `TRIM`, `CLEAN`, `LEN`, `ISBLANK`, `ISNUMBER`, `IF`, `COUNTIF`, `COUNTIFS`, `SUMIF`, `OR`, `NOT`, `VALUE`, `TEXT`, `VLOOKUP`
-- Features: Filter, Conditional Formatting, Data Validation, Pivot Tables
+- Features: Freeze Panes, Filter, Conditional Formatting, Data Validation, Pivot Tables
 
 ---
 
@@ -44,7 +44,7 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 
 6. **Data Type Correction**  
    Ensured all columns had the correct data type and consistent formatting:
-   - Converted text-based numbers into numeric values using the VALUE function.
+   - Converted text-based numbers into numeric values using the `VALUE` function.
    - Formatted pricing fields to two decimal places (e.g., $3.00) for clarity and consistency.
    - Verified that date fields were properly recognized as Date values, enabling accurate filtering and time-based analysis.
 
@@ -53,14 +53,14 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 
 8. **Feature Engineering**  
    Derived new variables from existing columns to enhance the dataset for analysis:
-   - Used VLOOKUP to categorize each item as either Food or Beverage based on a reference list.
-   - Applied the TEXT function on Transaction Date to extract Transaction Day and Transaction Month, enabling time-based analysis and trend insights.
+   - Used `VLOOKUP` to categorize each item as either *Food* or *Beverage* based on a reference list.
+   - Applied the `TEXT` function on **Transaction Date** to extract **Transaction Day** and **Transaction Month**, enabling time-based analysis and trend insights.
 
 9. **Final Checks**  
    Performed a final review to ensure data completeness and accuracy:
    - Rechecked for any remaining invalid entries and blank cells.
-   - Verified that all calculations, such as Total Spent, were accurate.
-   - Applied a multi-level sort by Item and then by Transaction Date to organize the dataset logically, ensuring consistency and easier trend analysis.
+   - Verified that all calculations, such as **Total Spent**, were accurate.
+   - Applied a multi-level sort by **Item** and then by **Transaction Date** to organize the dataset logically, ensuring consistency and easier trend analysis.
 
 ---
 
@@ -72,10 +72,10 @@ This project focuses on cleaning and preparing a cafe's sales dataset (**10,000 
 ---
 
 ## 🎓 Skills Demonstrated
-- **Data Quality Assessment** – Identified inconsistencies, missing values, and invalid entries across 10,000 rows
+- **Data Quality Assessment** – Identified inconsistencies, missing values, and invalid entries across **10,000 rows**
 - **Data Cleaning & Transformation** – Applied Excel functions (`TRIM`, `CLEAN`, `VALUE`, `TEXT`, `VLOOKUP`) to standardize and correct data
 - **Data Validation** – Implemented validation rules and conditional formatting to ensure data integrity
-- **Feature Engineering** – Created derived variables (Category, Transaction Day, Transaction Month) to enable deeper analysis
+- **Feature Engineering** – Created derived variables (**Category**, **Transaction Day**, **Transaction Month**) to enable deeper analysis
 - **Logical Problem-Solving** – Cross-referenced columns to infer and correct missing or invalid data using business logic
 - **Documentation** – Maintained detailed cleaning logs and data dictionaries for reproducibility and transparency
 - **Data Analysis** – Built pivot tables to summarize sales trends and identify top-performing items
